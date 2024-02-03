@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Velocidade</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    
+    
+</head>
+<body id="container">
+    <header>
+        <h1>Sistemas de Controle de velocidade</h1>
+    </header>
+    <main>
+        
+        <p>Distância entre as balanças em metros: </p><br> <input type="number" name="dis" id="dis"> <br>
+        <p>Tempo entre a primeira e a segunda balança em segundos:</p> <br> <input type="number" name="temp" id="temp"> <br>
+        <input type="button" value="verificar velocidade" onclick="calcular()">
+        <div id="vel">
+            
+        </div>
+        <div id="resultados">
+            
+        </div>
+    </main>
+    <!-- <div></div> -->
+    <footer> <p>Criado por,<a href="https://www.linkedin.com/in/rtmonteiro/" target="_blank">1RodrigoTavares1</a>! </p></footer>    
+
+    <script src="src/js/script.js">
+    </script>
+</body>
+</html>
